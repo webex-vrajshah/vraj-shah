@@ -32,6 +32,14 @@ h3 {
 }
 
 /********************************************* CLASS SELECTORS *********************************************/
+
+.notice {
+  background-color: #ffd739;
+  margin: 0;
+  text-align: left;
+  padding: 0.1%;
+}
+
 .top-container {
   background-color: #333333;
   margin: 0;
