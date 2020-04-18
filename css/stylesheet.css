@@ -191,4 +191,18 @@ h2 {
   .p-h1 {
     color: white;
   }
+
+  #features {
+    padding-bottom: 5%;
+  }
+
+#contact {
+  padding-bottom: 3%;
+}
+
+  .links {
+    height: 5%;
+    width: 5%;
+    padding-top: 5%;
+  }
 }
