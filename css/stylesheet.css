@@ -1,0 +1,194 @@
+/****************************************** TAG SELECTORS ******************************************/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 15%;
+  color: black;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 3%;
+}
+
+
+
+/****************************************** CLASS SELECTORS ******************************************/
+
+/* TITLE */
+
+.Title {
+  padding-bottom: 100px;
+}
+
+.title-container {
+  padding-top: 6%;
+  padding-bottom: 5.5%
+}
+
+.img-logo {
+  height: 50%;
+  width: 50%;
+}
+
+.p-h1 {
+  text-align: center;
+  font-size: 150%;
+}
+
+.app {
+  height: 35px;
+}
+
+.my-btn {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.my-col {
+  text-align: center;
+}
+
+.img-title {
+  height: 70%;
+  position: relative;
+  top: 15%
+}
+
+/* FEATURES */
+
+.img-features {
+  height: 60%;
+  width: 40%;
+  margin-top: 10%;
+}
+
+.p-features {
+  margin: 10% auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+/* SECTORS */
+
+.img-sectors {
+  height: 40%;
+  width: 20%;
+  margin-top: 10%;
+}
+
+.p-clients {
+  padding: 1% 0 2%;
+}
+
+.p-sectors {
+  margin: 5% auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Client */
+
+.my-cards {
+  text-align: center;
+  padding: 2%;
+}
+
+.p-clients {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.h2-contact {
+  padding-top: 1%;
+}
+
+.p-contact {
+  padding-top: 0;
+  font-size: 150%;
+}
+
+.my-contact-btn {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.links {
+  height: 2.5%;
+  width: 2.5%;
+  margin: auto 1%;
+  padding-top: 1%;
+}
+
+.p-footer {
+  padding-top: 1%;
+}
+
+
+/****************************************** ID SELECTORS ******************************************/
+
+#title {
+  background-color: #dbe9b7;
+}
+
+#features {
+  background-color: #f4dada;
+  padding-bottom: 2.5%;
+  position: relative;
+  z-index: 1;
+}
+
+#clients {
+  background-color: #b8b2a6;
+  padding: 2.5%;
+  text-align: center;
+}
+
+#sectors {
+  background-color: #dbe9b7;
+}
+
+#pricing {
+  padding-bottom: 2%;
+}
+
+#contact {
+  background-color: #b8b2a6;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+#footer {
+  background-color: #393e46;
+  padding: 0.1%;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+/****************************************** MEDIA QUERY ******************************************/
+ /* @media - condition - write your regular css inside the brackets, only that this time your css will be
+    executed only when the condition is true. for example, here (max-width: 595px) which means, if your
+    display size goes below 595px, it will override the normal css and execute what is written inside @media
+    query. for more functions, google. {
+
+    }*/
+@media (max-width: 595px) { /* write css the way it is written regularly, only that this time inside media{}
+                                You can write conditions for multiple selectors*/
+
+  h1 {
+    color: white;
+  }
+
+  .p-h1 {
+    color: white;
+  }
+}
